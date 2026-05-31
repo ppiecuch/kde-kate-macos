@@ -86,6 +86,18 @@ A new panel providing virtual filesystem access to Docker containers and remote 
 - Opens remote filesystems via built-in SFTP support
 - Connection profiles are saved in Kate's configuration
 
+### Hex Editor
+
+A compact hex dump viewer for binary files, embedded as a panel inside Kate:
+
+- **Load options** — open the currently active Kate document with one click, or pick any file via a file dialog
+- **File watching** — detects changes to the loaded file on disk and offers an instant reload; shows a warning if the file is deleted
+- Hex dump with offset, hex, and ASCII columns — adapts column count dynamically to panel width
+- Forward and backward **byte search** (e.g. `FF 00 AB`)
+- **Go to offset** — jump directly to any position in the file (hex input)
+- Read-only by default with an optional write mode toggle
+- Handles large files efficiently via streaming I/O (no full load into memory)
+
 ---
 
 ## Links
