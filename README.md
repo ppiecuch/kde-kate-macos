@@ -67,6 +67,8 @@ The following tools are bundled inside the application — no separate installat
 
 A full-featured REST API inspector embedded as a panel inside Kate:
 
+![REST Inspector](img/rest-inspector.png)
+
 - HTTP request builder supporting GET, POST, PUT, DELETE, PATCH, and more
 - JSON and XML response viewer with syntax highlighting
 - Request history and collections
@@ -89,6 +91,8 @@ A new panel providing virtual filesystem access to Docker containers and remote 
 ### Hex Editor
 
 A compact hex dump viewer for binary files, embedded as a panel inside Kate:
+
+![Hex Editor](img/hex-editor.png)
 
 - **Load options** — open the currently active Kate document with one click, or pick any file via a file dialog
 - **File watching** — detects changes to the loaded file on disk and offers an instant reload; shows a warning if the file is deleted
